@@ -1,0 +1,17 @@
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\obj\Debug\net8.0-windows\Projek_akhir_Danu_X_PPLG_2.Form1.resources
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\obj\Debug\net8.0-windows\Projek akhir Danu X PPLG 2.csproj.GenerateResource.cache
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\obj\Debug\net8.0-windows\Projek akhir Danu X PPLG 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\obj\Debug\net8.0-windows\Projek akhir Danu X PPLG 2.AssemblyInfoInputs.cache
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\obj\Debug\net8.0-windows\Projek akhir Danu X PPLG 2.AssemblyInfo.cs
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\obj\Debug\net8.0-windows\Projek akhir Danu X PPLG 2.csproj.CoreCompileInputs.cache
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\bin\Debug\net8.0-windows\Projek akhir Danu X PPLG 2.exe
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\bin\Debug\net8.0-windows\Projek akhir Danu X PPLG 2.deps.json
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\bin\Debug\net8.0-windows\Projek akhir Danu X PPLG 2.runtimeconfig.json
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\bin\Debug\net8.0-windows\Projek akhir Danu X PPLG 2.dll
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\bin\Debug\net8.0-windows\Projek akhir Danu X PPLG 2.pdb
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\obj\Debug\net8.0-windows\Projek akhir Danu X PPLG 2.dll
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\obj\Debug\net8.0-windows\refint\Projek akhir Danu X PPLG 2.dll
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\obj\Debug\net8.0-windows\Projek akhir Danu X PPLG 2.pdb
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\obj\Debug\net8.0-windows\Projek akhir Danu X PPLG 2.genruntimeconfig.cache
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\obj\Debug\net8.0-windows\ref\Projek akhir Danu X PPLG 2.dll
+C:\Danu Tri Widianto X PPLG 2\Projek akhir Danu X PPLG 2\obj\Debug\net8.0-windows\Projek_akhir_Danu_X_PPLG_2.Properties.Resources.resources

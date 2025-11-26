@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Projek akhir Danu X PPLG 2/1.0.0": {
+        "runtime": {
+          "Projek akhir Danu X PPLG 2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Projek akhir Danu X PPLG 2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
