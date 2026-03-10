@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Overflow</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 20px;
+    }
+    .header {
+      background-color: violet;
+      padding: 10px;
+      text-align: center;
+    }
+     h1 {
+      text-align: center;
+      background-color: aqua;
+     }
+    .nav a{
+      display: inline-block;
+      background-color: black;
+      padding: 10px 15px;
+      margin: 5px;
+      text-decoration: none;
+      color: blue;
+    }
+     
+    article{
+      width: 200px;
+      height: 100px;
+      border: 1px solid black;
+      margin: 10px;
+      padding: 10px;
+    }
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+    }
+    .visible {
+      overflow: visible;
+      background-color: rgb(215, 10, 27);
+    }
+    .hidden {
+      overflow: hidden;
+      background-color: rgb(13, 123, 20)
+    }
+    .scroll {
+      overflow: scroll;
+      background-color: brown;
+    }
+    .auto {
+      overflow: auto;
+      background-color: cyan;
+    }
+  </style>
+</head>
+<body>
+   <header>
+  <h1>Article Text</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Product</a>
+  </nav>
+
+  <h2>PRODUK KAMI !!</h2>
+  <div class="flexbox">
+  <article class="visible">Pendidikan merupakan fondasi utama bagi kemajuan sebuah bangsa dan pengembangan karakter generasi muda. Dengan menempuh pendidikan, individu memperoleh pengetahuan serta keterampilan yang sangat dibutuhkan untuk menghadapi tantangan zaman. Lebih dari sekadar akademis, proses belajar di sekolah juga membentuk kedisiplinan dan rasa tanggung jawab yang tinggi sejak dini.
+  </article>
+
+  <article class="hidden">TTeknologi digital telah mengubah cara kita bekerja dan berkomunikasi secara drastis dalam satu dekade terakhir. Kehadiran internet memungkinkan akses informasi menjadi lebih cepat dan efisien dari berbagai penjuru dunia. Oleh karena itu, kemampuan untuk beradaptasi dengan teknologi baru sangat krusial agar tidak tertinggal dalam persaingan global yang ketat.
+  </article>
+ 
+   <article class="scroll">Menjaga kesehatan fisik dan mental adalah investasi jangka panjang yang paling berharga untuk kualitas hidup. Rutin berolahraga dan mengonsumsi makanan bergizi dapat menghindarkan tubuh dari berbagai macam penyakit berbahaya. Selain itu, istirahat yang cukup membantu pikiran tetap fokus dan mengurangi stres akibat rutinitas pekerjaan yang sangat padat.
+   </article>
+
+  <article class="auto">Lingkungan sekitar kita harus dijaga kelestariannya demi keberlangsungan makhluk hidup di masa depan nanti. Langkah kecil seperti mengurangi sampah plastik dapat memberikan dampak positif yang besar jika dilakukan bersama-sama. Kesadaran untuk merawat alam harus ditanamkan sejak dini kepada generasi muda agar bumi tetap hijau dan asri. 
+  </article>
+  </div>
+</body>
+</html>
