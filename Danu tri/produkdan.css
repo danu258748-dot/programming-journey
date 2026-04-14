@@ -1,0 +1,121 @@
+/* Produk */
+.produk-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.harga {
+    color: green;
+    font-weight: bold;
+}
+
+button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.menu {
+    list-style: none;
+    background: grey;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+}
+
+header {
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    font-family: monospace;
+}
+
+/* Hover menu utama */
+li:hover,
+li:focus {
+    background: blue;
+    cursor: pointer;
+}
+
+/* Hilangkan outline */
+li:focus-within a {
+    outline: none;
+}
+
+/* Dropdown awalnya disembunyikan */
+ul li ul {
+    background:  blue;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 150px;
+    position: absolute;
+    transition: all 0.5s ease;
+    left: 0;
+    display: none;
+}
+
+/* Tampilkan dropdown saat hover */
+ul li:hover > ul,
+ul li:focus-within > ul {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+.btn-beli{
+  background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+    justify-content: left;
+}
+.btn-beli:hover{
+  background-color: rgb(21, 149, 161);
+    transform: scale(1.1);
+}
+.btn-beli:active{
+  background-color: brown;
+}
