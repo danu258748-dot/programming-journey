@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Box Model</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: rgb(59, 195, 202);
+    }
+    header {
+      margin-bottom: 2em;
+      text-align: center;
+    }
+
+    .profil_img {
+      display: inline-flex;
+      width: 300px;
+      border-radius: 100%;
+      margin-top: 25px;
+      
+    }
+    
+    article {
+      border: 1px solid silver;
+      border-radius: 0.8em;
+      padding: 1em;
+      margin-bottom: 1em;
+      background-color: white;
+    }
+
+    .kotak-skill {
+      border: 5px solid silver;
+      padding: 1em;
+      margin-bottom: 1em;
+      background-color: white; 
+    }
+    .action-buttons {
+      margin-top: 1.5em;
+    }
+    .action-buttons button {
+      display: inline;
+      margin-right: 1em;
+      padding: 0.5em 1em;
+      border-radius: 0.8em;
+      border: 1px solid silver;
+    }
+    
+    footer {
+      font-size: small;
+      margin-top: 6em;
+      text-align: center;
+   
+    }
+    footer {
+      font-size: small;
+      margin-top: 3em;
+      text-align: center;
+      color: black;
+      padding: 1em;
+      border-top: 1px solid #cce0ea;
+    }
+    .k {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PROFIL SAYA</h1>
+    <p>Foto Saya</p>
+    <img src="TOTO.jpg" alt="foto_profil" class="profil_img">
+  </header> 
+  
+  <article>
+    <p>Saya adalah seorang siswa SMK negeri 1 Kandeman Jurusan PPLG</p>
+
+      <div class="action-buttons">    
+          <button>&#x1F44D Like</button>
+          <button>😎 Comment</button>
+          <button>🔗 Share</button>
+        </button>
+      </div>
+  </article>
+
+  <article>
+    <p>Kompetisi yang sudah saya pelajari adalah HTML dan CSS</p>
+
+      <div class="action-buttons">
+          <button>&#x1F44D Like</button>
+          <button>😎 Comment</button>
+          <button>🔗 Share</button>
+      </div>
+  </article>
+
+  
+  <div class="kotak-skill">
+    <table class="k">
+      <thead>
+        <tr>
+          <th>Skill</th>
+          <th>Pengalaman</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&#8226 HTML(Expert)</td>
+          <td>&#8226 Freelance</td>
+        </tr>
+        <tr>
+          <td>&#8226 CSS(Beginner)</td>
+          <td>&#8226 Leader Local Linex Community</td>
+        </tr>
+        <tr>
+          <td>&#8226 Python(Beginner)</td>
+          <td>&#8226 Leader Local Linex Community</td>
+        </tr>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  
+  <footer>
+    Copyright &copy; X PPLG
+  </footer>
+</body>
+</html>

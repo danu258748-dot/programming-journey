@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over Flow</title>
+    <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 20px;
+    }
+    .header {
+      background-color: blueviolet;
+      padding: 10px;
+      text-align: center;
+    }
+    h1 {
+      text-align: center;
+    }
+    .nav a{
+      display: inline-block;
+      background-color: black;
+      padding: 10px 15px;
+      margin: 5px;
+      text-decoration: none;
+      color: azure;
+    }
+     
+    article{
+      width: 200px;
+      height: 100px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid black;
+    }
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+    }
+    .visible {
+      overflow: visible;
+      background-color: cyan;
+    }
+    .hidden {
+      overflow: hidden;
+      background-color: rgb(244, 78, 222)
+    }
+    .scroll {
+      overflow: scroll;
+      background-color: rgb(33, 174, 75);
+    }
+    .auto {
+      overflow: auto;
+      background-color: rgb(37, 214, 155);
+    }
+  </style>
+</head>
+<body>
+    <head>
+        <h1>Artikel</h1>
+    </head>
+    
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Product</a>
+</nav>
+
+<h2>TEKS</h2>
+<div class="flexbox">
+    <article class="visible">Lingkungan yang bersih dan sehat
+         merupakan fondasi utama bagi kehidupan manusia yang berkualitas.
+         Namun, saat ini, kesadaran masyarakat akan pentingnya menjaga
+         kebersihan alam masih cukup rendah. Banyak aktivitas manusia yang tanpa sadar
+         justru merusak ekosistem, seperti pembuangan limbah sembarangan dan penggunaan
+         plastik sekali pakai yang berlebihan.</article>
+
+    <article class="hidden">Lingkungan yang bersih dan sehat
+         merupakan fondasi utama bagi kehidupan manusia yang berkualitas.
+         Namun, saat ini, kesadaran masyarakat akan pentingnya menjaga
+         kebersihan alam masih cukup rendah. Banyak aktivitas manusia yang tanpa sadar
+         justru merusak ekosistem, seperti pembuangan limbah sembarangan dan penggunaan
+         plastik sekali pakai yang berlebihan.</article>
+
+    <article class="auto">Lingkungan yang bersih dan sehat
+         merupakan fondasi utama bagi kehidupan manusia yang berkualitas.
+         Namun, saat ini, kesadaran masyarakat akan pentingnya menjaga
+         kebersihan alam masih cukup rendah. Banyak aktivitas manusia yang tanpa sadar
+         justru merusak ekosistem, seperti pembuangan limbah sembarangan dan penggunaan
+         plastik sekali pakai yang berlebihan.</article>
+
+    <article class="scroll">Lingkungan yang bersih dan sehat
+         merupakan fondasi utama bagi kehidupan manusia yang berkualitas.
+         Namun, saat ini, kesadaran masyarakat akan pentingnya menjaga
+         kebersihan alam masih cukup rendah. Banyak aktivitas manusia yang tanpa sadar
+         justru merusak ekosistem, seperti pembuangan limbah sembarangan dan penggunaan
+         plastik sekali pakai yang berlebihan.</article>
+</div>
+</body>
+</html>

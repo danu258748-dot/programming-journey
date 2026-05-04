@@ -1,0 +1,40 @@
+.p1{
+    font-size: 60px;
+    font-size: 1em;
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .p2 {
+    font-size: 10px;
+    font-size: 4em;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+  }
+  .p3 {
+    font-size: 900px;
+    font-size: 2em;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-style: inherit;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .p4 {
+    font-size: 80px;
+    font-size: 2em;
+    font-size: 5rem;
+    font-weight: lighter;
+    font-style: initial;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .p5 {
+    font-size: 200px;
+    font-size: 7em;
+    font-size: 6rem;
+    font-weight: normal;
+    font-style: unset;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
