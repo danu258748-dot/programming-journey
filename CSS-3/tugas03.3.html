@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Transform CSS</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f3f7;
+            padding: 25px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #34495e;
+            margin-bottom: 30px;
+            text-transform: capitalize;
+        }
+
+        .box {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0);
+            line-height: 1.5;
+        }
+
+        .to-upper {
+            text-transform: uppercase;
+            color: #610b0b;
+            font-weight: bold;
+        }
+
+        .to-lower {
+            text-transform: lowercase;
+            color: #54064d;
+        }
+
+        .note {
+            margin-top: 20px;
+            font-size: 13px;
+            color: grey;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Text Transform</h1>
+
+    <div class="box">
+        <p>
+            <span class="to-upper">css sangat membantu dalam mengatur tampilan teks.</span>
+            Dengan properti text-transform, kita bisa mengubah huruf tanpa harus
+            mengedit teks aslinya.
+        </p>
+
+        <p>
+            <span class="to-lower">
+                TEKS INI DITULIS MENGGUNAKAN HURUF BESAR,
+                TETAPI HASIL AKHIRNYA AKAN MENJADI HURUF KECIL-KECIL.
+            </span>
+        </p>
+
+        <p class="note">
+            Contoh ini menunjukkan penggunaan capitalize, uppercase, dan lowercase
+            pada CSS.
+        </p>
+    </div>
+
+</body>
+</html>
